@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Prueba</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+<!--	<style type="text/css">
+
+		@media 
+		.icons{
+
+		}
+	</style> -->
+    <style type="text/css">
+    #background {
+  background: url("images/banner2.png");
+  background-position: center;
+  background-size: cover;
+  height: 225px; width: 100%;
+}
+
+@media (min-width: 480px) {
+    #background { margin-top:-10px; margin-bottom:-10px; height:300px; }
+}
+
+@media (min-width: 768px) {
+    #background { margin-top:-10px;margin-bottom:-10px; height:300px; }
+}
+
+@media (min-width: 992px) {
+    #background {margin-top:-10px; margin-bottom:-10px; height:300px;}
+}
+
+@media (min-width: 1024px){
+  #background{ margin-top:-10px; margin-bottom:-10px; height:300px; }
+}
+
+@media (min-width: 1212px ){
+  #background{margin-top:10px; margin-bottom:-10px; height:325px;}
+}
+
+@media (min-width: 1212px){
+  #prd{margin-top:5px;}
+}
+
+@media (min-width: 1212px){
+  #p{margin-left:144px; }
+}
+  </style>
+  <script type="text/javascript" src="bootstrap/jquery-3.4.1.js"></script>
+  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<header>
+	<div class="container-fluid" style="background-color:#f2f2f2; color:black;">
+		<div class="row">
+		 	<div class="col-xs-12 col-sm-6">
+		 	<section class="slider d-flex" >
+  				<h1 class="display-4">TU MARCA/LOGO</h1>
+  			</section>
+		 	</div>
+		 	<div class="col-xs-12 col-sm-6">
+		 		<img src="logot.png" class="img-responsive" style="width: 30px; height:30px; margin-top:20px; margin-bottom: 10px; margin-left:25px; margin-right: 50px; float:right;">
+		 		<img src="logof.png" class="img-responsive" style="width: 30px; height:30px; margin-top:20px; margin-bottom: 10px; margin-left:25px; float:right;">
+		 		<img src="logoi.png" class="img-responsive" style="width: 30px; height:30px; margin-top:20px; margin-bottom: 10px; margin-left:25px; float:right;">
+		 	</div>
+		</div>
+	</div>
+<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-4">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Nosotros <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Productos
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Tecnologia</a>
+          <a class="dropdown-item" href="#">Salud Belleza</a>
+          <a class="dropdown-item" href="#">Colecciones</a>
+          <a class="dropdown-item" href="#">Hogar y jardin</a>
+          <a class="dropdown-item" href="#">Ofertas</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Servicios</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contactos</a>
+      </li>
+    </ul>
+  </div>
+</nav> -->
+
+<!-- Otro menu -->
+<nav class="navbar navbar-expand-lg navbar-dark py-4" style="background-color:#000000; font-family:'Arial Bold',sans-serif; font-weight:bold; color:white">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar10">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbar10">
+            <ul class="navbar-nav nav-fill w-100">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nosotros</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Productos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#" style="background-color: #E5E5E5;">Tecnologia</a>
+                    <a class="dropdown-item" href="#" style="background-color: white">Salud Belleza</a>
+                    <a class="dropdown-item" href="#" style="background-color: #E5E5E5;">Colecciones</a>
+                    <a class="dropdown-item" href="#" style="background-color: white">Hogar y jardin</a>
+                    <a class="dropdown-item" href="#" style="background-color: #E5E5E5;">Ofertas</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contactos</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid" style="background-color:#000000; text-align: center; border:none;margin-top:-2px;">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-bottom:5px">
+      <img src="images/buscar.png" class="ico">
+      <img src="images/cesta.png" class="ico">
+      <img src="images/corazon.png" class="ico">
+      <img src="images/usuario.png" class="ico">
+    </div>
+  </div>
+</div>
+</header>
+
+<br>
+  <section>
+    <div class="container-fluid">
+      <div class="row">
+                <div class="col-md-3 col-lg-3 col-xl-3">
+          <div class="card">
+            <div class="card-body cardBack">
+              <p>CATEGORIAS</p>
+            </div>
+          </div>
+        <br>
+        <div class="card" style="border:none;">
+          <div class="card-body" style="text-align: center; background-color:#E5E5E5">
+          <p class="card-text"><a class="cat" href="#">TECNOLOGÍA</a></p>
+          <p class="card-text"><a class="cat" href="#">SALUD BELLEZA</a></p>
+          <p class="card-text"><a class="cat" href="#">COLECCIONES</a></p>
+          <p class="card-text"><a class="cat" href="#">HOGAR Y JARDÍN</a></p>
+          <p class="card-text"><a class="cat" href="#">OFERTAS</a></p>
+          </div>
+        </div>
+        <br>
+        <div class="card">
+            <div class="card-body cardBack">
+              <p>PROMOCIONES</p>
+            </div>
+        </div>
+        <br>
+        <div class="card" style="border:none;">
+          <div class="card-body">
+          <p class="card-text" >
+            <a class="cat" href="#"><img class="prom" src="images/promocion1.png"></a>
+            <img src="images/estrellas.png" class="star img-fluid">
+          </p>
+          <p class="text-left">Celular $$$$$</p>
+          <p class="card-text">
+            <a class="cat" href="#"><img class="prom" src="images/promocion2.png"></a>
+            <img src="images/estrellas.png" class="star img-fluid">
+            <p>$$$$$</p>
+          </p>
+          <p class="card-text">
+            <a class="cat" href="#"><img class="prom" src="images/promocion3.png"></a>
+            <img src="images/estrellas.png" class="star img-fluid">
+            <p>$$$$$</p>
+          </p>
+         </div>
+        </div>
+         </div>
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
+          <img src="images/banner.png" class="img-fluid banner" alt="Responsive image">
+          <hr style="border:1px solid grey; width:88%;" align="left" />
+          <h2 style="text-align: center;">Productos mas vendidos</h2>
+            <div class="card" style="width: 18rem; float: left; background-color:#CCCCCC">
+              <div class="card-body">
+                <img class="card-img-top" src="images/producto1.png" style="" alt="Card image cap">
+                <h5 class="card-title ali">
+                  <img src="images/estrella1.png" class="st">
+                  <img src="images/estrella1.png" class="st">
+                  <img src="images/estrella1.png" class="st">
+                  <img src="images/estrella1.png" class="st">
+                  <img src="images/estrella2.png" class="st">
+                </h5>
+                <p class="card-text ali" style="color:white">
+                  <img src="images/cesta.png" class="ic" style="margin-right: 6px;">
+                  LAPTOP
+                  $$$$$ 
+                  <img src="images/corazon2.png" class="ic" style="margin-left: 6px;">
+                </p>
+              </div>
+            </div>
+          <div class="card" style="width: 18rem;float: left; background-color:#CCCCCC; margin-left:5px">
+            <div class="card-body">
+                <img class="card-img-top" src="images/producto1.png" style="" alt="Card image cap">
+                <h5 class="card-title ali">
+                  <img src="images/estrella1.png" class="st">
+                  <img src="images/estrella1.png" class="st">
+                  <img src="images/estrella1.png" class="st">
+                  <img src="images/estrella1.png" class="st">
+                  <img src="images/estrella2.png" class="st">
+                </h5>
+                <p class="card-text ali" style="color:white">
+                  <img src="images/cesta.png" class="ic" style="margin-right: 6px;">
+                  LAPTOP
+                  $$$$$ 
+                  <img src="images/corazon2.png" class="ic" style="margin-left: 6px;">
+                </p>
+              </div>  
+          </div>
+          <div class="card" style="width: 18rem;float: left; background-color:#CCCCCC; margin-left:5px">
+            <div class="card-body">
+                <img class="card-img-top" src="images/producto1.png" style="" alt="Card image cap">
+                <h5 class="card-title ali">
+                  <img src="images/estrella1.png" class="st">
+                  <img src="images/estrella1.png" class="st">
+                  <img src="images/estrella1.png" class="st">
+                  <img src="images/estrella1.png" class="st">
+                  <img src="images/estrella2.png" class="st">
+                </h5>
+                <p class="card-text ali" style="color:white">
+                  <img src="images/cesta.png" class="ic" style="margin-right: 6px;">
+                  LAPTOP
+                  $$$$$ 
+                  <img src="images/corazon2.png" class="ic" style="margin-left: 6px;">
+                </p>
+              </div>  
+          </div>
+          <div class="card" id="prd" style="width: 18rem;float: left; background-color:#CCCCCC;">
+            <div class="card-body">
+                <img class="card-img-top" src="images/producto1.png" style="" alt="Card image cap">
+                <h5 class="card-title ali">
+                  <img src="images/estrella1.png" class="st">
+                  <img src="images/estrella1.png" class="st">
+                  <img src="images/estrella1.png" class="st">
+                  <img src="images/estrella1.png" class="st">
+                  <img src="images/estrella2.png" class="st">
+                </h5>
+                <p class="card-text ali" style="color:white">
+                  <img src="images/cesta.png" class="ic" style="margin-right: 6px;">
+                  LAPTOP
+                  $$$$$ 
+                  <img src="images/corazon2.png" class="ic" style="margin-left: 6px;">
+                </p>
+              </div>  
+          </div>
+          <div class="card" id="prd" style="width: 18rem;float: left; background-color:#CCCCCC; margin-left:5px">
+            <div class="card-body">
+                <img class="card-img-top" src="images/producto1.png" style="" alt="Card image cap">
+                <h5 class="card-title ali">
+                  <img src="images/estrella1.png" class="st">
+                  <img src="images/estrella1.png" class="st">
+                  <img src="images/estrella1.png" class="st">
+                  <img src="images/estrella1.png" class="st">
+                  <img src="images/estrella2.png" class="st">
+                </h5>
+                <p class="card-text ali" style="color:white">
+                  <img src="images/cesta.png" class="ic" style="margin-right: 6px;">
+                  LAPTOP
+                  $$$$$ 
+                  <img src="images/corazon2.png" class="ic" style="margin-left: 6px;">
+                </p>
+              </div>  
+          </div>
+          <div class="card" id="prd" style="width: 18rem;float: left; background-color:#CCCCCC; margin-left:5px">
+            <div class="card-body">
+                <img class="card-img-top" src="images/producto1.png" style="" alt="Card image cap">
+                <h5 class="card-title ali">
+                  <img src="images/estrella1.png" class="st">
+                  <img src="images/estrella1.png" class="st">
+                  <img src="images/estrella1.png" class="st">
+                  <img src="images/estrella1.png" class="st">
+                  <img src="images/estrella2.png" class="st">
+                </h5>
+                <p class="card-text ali" style="color:white">
+                  <img src="images/cesta.png" class="ic" style="margin-right: 6px;">
+                  LAPTOP
+                  $$$$$ 
+                  <img src="images/corazon2.png" class="ic" style="margin-left: 6px;">
+                </p>
+              </div>  
+          </div>                               
+        </div>
+        <!-- Linea divisora -->
+        
+
+  <!--  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <img src="images/banner2.png" class="img-fluid banner2">
+    </div> -->
+      </div>
+    </div>
+    
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 col-lg-3 col-xl-3"> 
+        </div>
+        <br>
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-9">
+          <hr style="border:1px solid grey; width:88%;" align="left" />
+          <div class="card" style="width: 18rem;float: left; margin-top: 10px; border:none">
+            <div class="card-body">
+                <img class="card-img-top" src="images/explorar1.png" style="" alt="Card image cap">
+                <h5 class="card-title ali" style="color:black;">COMPAQ</h5>
+            </div>  
+          </div>
+          <div class="card" style="width: 18rem;float: left; margin-top: 10px; border:none">
+            <div class="card-body">
+                <img class="card-img-top" src="images/explorar2.png" style="" alt="Card image cap">
+                <h5 class="card-title ali" style="color:black;">IMPRESORAS</h5>
+            </div>  
+          </div>
+          <div class="card" style="width: 18rem;float: left; margin-top: 10px; border:none">
+            <div class="card-body">
+                <img class="card-img-top" src="images/explorar3.png" style="" alt="Card image cap">
+                <h5 class="card-title ali" style="color:black;">LAPTOPS</h5>
+            </div>  
+          </div>
+        </div>
+    <!--    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <img src="images/banner2.png" class="img-fluid banner2">
+        </div> -->
+      </div>
+    </div>
+    <div class="tab-content">
+      <div id="background">
+    </div>
+</div>
+  </section>
+
+  <footer>
+    <!-- Footer -->
+  <section id="footer">
+
+    <div class="container">
+    <!--  <div class="row text-center text-xs-center text-sm-left text-md-left">
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <h5>Quick links</h5>
+          <ul class="list-unstyled quick-links">
+            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <h5>Quick links</h5>
+          <ul class="list-unstyled quick-links">
+            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+          </ul>
+        </div> 
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <h5>Quick links</h5>
+          <ul class="list-unstyled quick-links">
+            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+            <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+          </ul>
+        </div>
+      </div> -->
+  <!--    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+          <ul class="list-unstyled list-inline social text-center">
+            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+            <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+          </ul>
+        </div>
+        </hr>
+      </div>  -->
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+          <p><u><a href="https://www.nationaltransaction.com/">National Transaction Corporation</a></u> is a Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Minneapolis, MN]</p>
+          <p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com" target="_blank">Sunlimetech</a></p>
+        </div>
+        </hr>
+      </div>  
+    </div>
+  </section>
+  </footer>
+
+</body>
+</html>
+
+
+<!-- Probar a quitar container -->
